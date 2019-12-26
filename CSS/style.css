@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.row{
+    width:300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cell{
+    width: 100px;
+    height:100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.x{
+    background-image: url("../Images/x.png");
+    background-size: cover;
+}
+.o{
+    background-image: url("../Images/o.png");
+    background-size: cover;
+}
